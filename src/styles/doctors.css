@@ -1,0 +1,234 @@
+/* Doctors Page Directory Styling */
+
+.doctors-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+/* --- DEPARTMENT FILTER PILLS --- */
+.dept-tabs-container {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding: 0.75rem 1.25rem !important;
+  border-radius: var(--border-radius-sm);
+  white-space: nowrap;
+}
+
+.dept-tabs-container::-webkit-scrollbar {
+  height: 4px;
+}
+
+.dept-tab-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-size: 0.85rem;
+  background-color: var(--input-bg);
+  border: 1px solid var(--border-color);
+  transition: var(--transition);
+}
+
+.dept-tab-btn:hover {
+  background-color: var(--surface-hover);
+  color: var(--text-primary);
+}
+
+.dept-tab-btn.active {
+  background-color: var(--primary-color);
+  color: #000000;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 10px var(--primary-glow);
+}
+
+/* --- DOCTORS PROFILE MATRIX --- */
+.doctors-deck-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.doctor-profile-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 1.5rem !important;
+}
+
+.doc-card-top {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.doc-avatar {
+  width: 56px;
+  height: 56px;
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #000000;
+  box-shadow: var(--shadow-sm);
+}
+
+.doc-meta-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.doc-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.doc-specialty-badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.doc-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--warning-color);
+}
+
+.star-icon {
+  fill: var(--warning-color);
+}
+
+.doc-details-divider {
+  height: 1px;
+  background-color: var(--border-color);
+  width: 100%;
+}
+
+.doc-contact-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact-node {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.contact-node span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Performance block */
+.doc-performance-box {
+  background-color: var(--input-bg) !important;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  padding: 0.75rem 1rem !important;
+}
+
+.perf-metric {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.perf-metric svg {
+  flex-shrink: 0;
+}
+
+.perf-metric div {
+  display: flex;
+  flex-direction: column;
+}
+
+.perf-val {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.perf-lbl {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+/* Duty days schedule */
+.doc-duty-schedule {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.schedule-lbl {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.duty-days-row {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.duty-day-dot {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--input-bg);
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  font-size: 0.7rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.duty-day-dot.active {
+  background-color: var(--primary-glow);
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+/* Availability footer */
+.doc-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  border-top: 1px solid var(--border-color);
+  padding-top: 1rem;
+}
+
+.status-indicator-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.status-label {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.cycle-status-action {
+  padding: 0.4rem 0.75rem !important;
+  font-size: 0.75rem !important;
+  font-weight: 600;
+}
