@@ -1,3 +1,15 @@
+<img width="1878" height="875" alt="Front desk" src="https://github.com/user-attachments/assets/88117e47-78c6-4797-afff-99080589c1e0" />
+<img width="1915" height="873" alt="Dr&#39;s" src="https://github.com/user-attachments/assets/6f96915c-e620-4d15-8574-b6877ea823ab" />
+<img width="1905" height="875" alt="Dr login" src="https://github.com/user-attachments/assets/03d7cb84-ca47-4680-b6e3-8ffd952af31a" />
+<img width="1878" height="862" alt="Dark mode" src="https://github.com/user-attachments/assets/f6329c04-3770-4b83-9b88-8e89ef6963a7" />
+<img width="1915" height="880" alt="appointments" src="https://github.com/user-attachments/assets/7150e32f-dde0-4864-9e7f-399a234b85c9" />
+<img width="1900" height="851" alt="Ai" src="https://github.com/user-attachments/assets/03c16831-4145-4ab7-b5da-924dcfd4cf27" />
+<img width="1917" height="884" alt="Ai health analytics" src="https://github.com/user-attachments/assets/1d1c0e11-b237-4d4a-9c68-57c53f154f34" />
+<img width="1912" height="899" alt="Admin login" src="https://github.com/user-attachments/assets/e9f09a73-d690-4b2b-900d-2d60c277d80f" />
+<img width="1557" height="756" alt="specialist" src="https://github.com/user-attachments/assets/aa0e3785-bb7d-48d4-826a-dde30eee8843" />
+<img width="1869" height="884" alt="patient login" src="https://github.com/user-attachments/assets/62b26441-c979-41d9-93d7-440873e8c4ac" />
+<img width="1897" height="849" alt="p details" src="https://github.com/user-attachments/assets/3fcec667-d991-40ab-9159-a8d7cd94e7b8" />
+<img width="1851" height="961" alt="notification" src="https://github.com/user-attachments/assets/adc9004b-d2f0-47df-b6ea-f0a27d382a62" />
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
