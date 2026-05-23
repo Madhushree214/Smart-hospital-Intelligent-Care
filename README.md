@@ -1,3 +1,5 @@
+<img width="1820" height="849" alt="Screenshot 2026-05-23 110430" src="https://github.com/user-attachments/assets/97c8cd4b-228e-4ab6-96c0-dcef81ff0ae5" />
+<img width="1801" height="845" alt="Screenshot 2026-05-23 110445" src="https://github.com/user-attachments/assets/0db0fa2f-2e5e-4c23-b0cf-1b2b1a9a33f3" />
 <img width="1878" height="875" alt="Front desk" src="https://github.com/user-attachments/assets/88117e47-78c6-4797-afff-99080589c1e0" />
 <img width="1915" height="873" alt="Dr&#39;s" src="https://github.com/user-attachments/assets/6f96915c-e620-4d15-8574-b6877ea823ab" />
 <img width="1905" height="875" alt="Dr login" src="https://github.com/user-attachments/assets/03d7cb84-ca47-4680-b6e3-8ffd952af31a" />
